@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+
 </head>
 <body>
-  <table border="1" cellpadding="8" cellspacing="0" align="center">
+  <table border="1" cellspacing="0" align="center" style="border-style: dashed;">
 
    <caption><strong>A complex table</strong></caption>
+   <thead style="font-style: italic;">
    <tr>
       <td colspan="5"><strong>Invoice #123456789</strong></td>
       <td colspan="3" align="right">24 August 2025</td>
@@ -26,6 +30,8 @@
         Mancheswar<br>bhubnaeswar,751017
       </td>
     </tr>
+    </thead>
+    <tbody>
     <tr>
       <th colspan="3" align="left">Name / Description</th>
       <th align="left">Qty. </th>
@@ -50,7 +56,8 @@
       <td align="left">1.00</td>
       <td align="left">100.00</td>
     </tr>
-
+    </tbody>
+    <tfoot>
     
     <tr>
       <td colspan="5" align="left"><strong>Subtotal</strong></td>
@@ -65,8 +72,7 @@
       <td colspan="5" align="left"><strong>Grand Total</strong></td>
       <td align="left"><strong>$ 118.80</strong></td>
     </tr>
+    </tfoot>
   </table>
-</body>
-</html>
 </body>
 </html>
